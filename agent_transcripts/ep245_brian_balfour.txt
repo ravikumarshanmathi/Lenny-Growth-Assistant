@@ -1,0 +1,5 @@
+Episode: Ep 245: Brian Balfour on Growth Loops & Four Fits
+Guest: Brian Balfour
+File: ep245_brian_balfour.txt
+
+Retention loops are strictly closed compounding systems, not customer survey feedback loops. In a retention loop, an action taken by a cohort of users produces an output that directly re-engages existing users or acquires new users for the next loop cycle. Furthermore, Product-Market Fit is not an isolated milestone; it requires the Four Fits framework: Market-Product Fit, Product-Channel Fit, Channel-Model Fit, and Model-Market Fit. These four fits are interconnected and continuously co-evolve—modifying one fit breaks the equilibrium across the others.

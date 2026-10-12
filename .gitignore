@@ -1,0 +1,64 @@
+# ============================================================
+# The Lenny Growth Assistant — .gitignore
+# ============================================================
+
+# --- Environment & Secrets ---
+.env
+.env.local
+.env.*.local
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+*.cover
+
+# --- Node.js / Frontend ---
+node_modules/
+frontend/dist/
+frontend/build/
+.vite/
+*.tsbuildinfo
+
+# --- Docker ---
+docker-compose.override.yml
+
+# --- IDEs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# --- Vector DB / Data ---
+*.faiss
+*.index
+chroma_db/
+data/transcripts/*.txt
+data/transcripts/*.md
+data/transcripts/*.json
+!data/transcripts/.gitkeep
+
+# --- Logs ---
+*.log
+logs/
+
+# --- Build / Temp ---
+tmp/
+temp/
+*.tmp

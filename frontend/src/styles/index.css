@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background text-zinc-100 antialiased font-sans m-0 p-0 overflow-hidden h-screen w-screen;
+  }
+}
+
+/* Custom markdown typography styles for artifact viewer */
+.prose h1 { @apply text-2xl font-bold mb-4 mt-6 text-zinc-100; }
+.prose h2 { @apply text-xl font-semibold mb-3 mt-5 text-zinc-100 border-b border-border pb-2; }
+.prose h3 { @apply text-lg font-medium mb-2 mt-4 text-zinc-200; }
+.prose p { @apply mb-4 leading-relaxed text-zinc-300; }
+.prose ul { @apply list-disc list-inside mb-4 text-zinc-300 space-y-1; }
+.prose ol { @apply list-decimal list-inside mb-4 text-zinc-300 space-y-1; }
+.prose strong { @apply text-zinc-100 font-semibold; }
+.prose blockquote { @apply border-l-4 border-indigo-500 pl-4 py-1 italic bg-zinc-900/50 rounded-r-md my-4; }
+.prose pre { @apply bg-zinc-900 p-4 rounded-md overflow-x-auto mb-4 border border-zinc-800 text-sm; }
+.prose code { @apply bg-zinc-800 text-zinc-200 px-1.5 py-0.5 rounded text-sm font-mono; }
+.prose a { @apply text-indigo-400 hover:text-indigo-300 underline underline-offset-2; }
